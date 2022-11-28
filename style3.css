@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+.header{
+    width: auto;
+    height: 60px;
+    padding: 14px  16px;
+}
+.header .logo{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+    border: 2px solid black;
+}
+.header .logo ul{
+    display: inline-flex;
+}
+.header .logo ul li{
+    font-weight: bold;
+    list-style: none;
+    margin: 6px;
+    line-height: 1em;
+}
+.header .logo ul li i{
+    line-height: 35px;
+}
+.header .logo ul li span{
+    line-height: 
+}
+
+.header .navbar{
+    float: right;
+    line-height: 60px;
+}
+
+.header .navbar ul {
+    list-style: none;
+    display: inline-flex;
+}    
+.header .navbar ul li{
+    font-weight: bold;
+    margin: 0 14px;
+}      
+.header .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+ }
+ .header .navbar ul li a:hover{
+   color:rgb(182, 116, 54);
+  }
+  .header .navbar ul li i:hover{
+    color: rgb(182, 116, 54);
+  }
+  
+  /*start description*/
+.description{
+width: 100%; 
+height:200px;
+background-color:rgb(62, 60, 61);
+overflow: hidden;
+}
+.description .border{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    margin: auto ;
+    margin-top: 1%;
+    border: solid white;
+    background-color: transparent;
+}
+            /*contenu description*/
+.description .border .title{
+    width: 30%;
+    height:60%;
+    margin-top: 30px;
+    margin-left: 7%;
+    text-align: center;
+    float: left;
+
+}            
+.description .border .title h2{
+    color: white;
+}   
+.description .border .title h2 span{
+    color: white;
+    font-size: 50px;
+}         
+/*start paragraph*/
+.description .par {
+    float:right;
+    width: 40%;
+    height: 90%;
+    position: relative;
+    padding-right: 150px;
+}
+.description .par .bloc {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.description .par .bloc .vertical{
+    width: 28px;
+    height: 75px;
+    background-color: white;
+}
+.description .par .bloc .texte{
+    padding-left: 20px;
+    color: white;
+}
+.description .par .comment{
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+/*start article*/
+.article{
+    width: 90%;
+    height: 300px;
+    margin:auto;
+}
+/*kichen*/
+.article .kitchen{
+    float: left;
+    width:50%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.article .kitchen .image{
+ padding-top: 70px ;
+ padding-left: 40px;
+}
+.article .kitchen .image img{
+   width: 200px;
+   height: 160px;
+   }
+.article .kitchen .texte{
+ padding-top: 70px ;
+ padding-left: 40px;
+}
+   .article .kitchen .texte h2{
+    color: rgb(54, 54, 54);
+   }
+   .article .kitchen .texte p{
+   padding-top: 30px;
+   color: rgb(54, 54, 54);
+   font-weight: bold;
+   }
+   .article .kitchen .texte button{
+    margin-top: 20px;
+    padding: 0 5px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: rgb(62, 60, 61);
+    color: rgb(155, 153, 153);
+    border: 0;
+   }
+/*bedroom*/
+.article .bedroom{
+    float: right;
+    width:45%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.article .bedroom .image{
+    padding-top: 70px ;
+    padding-left: 40px;
+   }
+   .article .bedroom .image img{
+      width: 100px;
+      height: 160px;
+      }
+   .article .bedroom .texte{
+    padding-top: 70px ;
+    padding-left: 40px;
+    padding-right: 80px;
+   }
+      .article .bedroom .texte h2{
+       color: rgb(54, 54, 54);
+      }
+      .article .bedroom .texte p{
+      padding-top: 30px;
+      color: rgb(54, 54, 54);
+      font-weight: bold;
+      }
+      .article .bedroom .texte button{
+       margin-top: 20px;
+       padding: 0 5px;
+       padding-bottom: 2px;
+       text-align: center;
+       background-color: rgb(62, 60, 61);
+       color: rgb(155, 153, 153);
+       border: 0;
+      
+      }
+      /*end article*/
+  /*start footer*/
+  .footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .footer .contact{
+    margin-left: 100px;
+    padding-left: 220px;
+    padding-right: 160px;
+    color: rgb(49, 49, 49);
+    font-weight: bold ;
+  }
+  .footer .link{
+  margin-right:  350px;
+  }
+  .footer .link i{
+    color: rgb(49, 49, 49) ;
+    margin: 0 8px;
+    }
+    .footer .link i:hover{
+        color: rgb(182, 116, 54);
+        margin: 0 8px;
+        }
